@@ -1,0 +1,78 @@
+.container {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%; /* Make images responsive by default */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px;
+    max-width: 600px; /* Limit image width on larger screens */
+}
+
+.title-and-description {
+    max-width: 100%; /* Ensure title and description fit within screen width */
+}
+
+.d-flex {
+    flex-wrap: wrap; /* Allow items to wrap on small screens */
+}
+
+.mt-2 {
+    margin-top: 10px; /* Adjust margin for spacing */
+}
+
+h5 {
+    font-size: 1.2rem; /* Adjust heading size */
+}
+
+/* Media Query for Medium Screens */
+@media (min-width: 576px) and (max-width: 768px) {
+    .title-and-description {
+        text-align: left; /* Keep text aligned left for better readability */
+    }
+    .d-flex {
+        flex-direction: row; /* Set flex direction to row for medium screens */
+    }
+    .text-end {
+        text-align: end; /* Align text to the end */
+    }
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 576px) {
+    .card-img-top {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important; /* Ensures images are visible */
+    }
+
+    .fw-bold {
+        text-align: center;
+    }
+    .title-and-description {
+        text-align: center; /* Center align text on small screens */
+    }
+    .card {
+        margin-bottom: 15px; /* Space between cards */
+    }
+    .form-control {
+        width: 100%; /* Full width inputs */
+    }
+    .text-end {
+        text-align: center; /* Center align on small screens */
+    }
+    .d-flex {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center items */
+    }
+    .d-flex.flex-row {
+        flex-direction: column; /* Change to column layout */
+    }
+    .mt-2 {
+        margin-top: 5px; /* Adjust top margin for spacing */
+    }
+}

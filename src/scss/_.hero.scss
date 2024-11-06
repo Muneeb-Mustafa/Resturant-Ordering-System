@@ -1,0 +1,59 @@
+.sectionStyle { 
+    background-image: url('../../src/Images/aboutimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; // Text color
+    text-align: center; 
+  }
+  .sectionStyles { 
+  background-image: url('../../src/Images/aboutimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; // Text color
+    text-align: center; 
+}
+  .sectionStyles h4{ 
+    color: black;
+}
+  .carousel-caption-center {
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    width: 100%;
+    transform: translate(-50%, -50%); 
+}
+
+
+@media (max-width: 576px){
+  .carousel-control-prev,
+    .carousel-control-next {
+        display: none;  
+    }
+  #des {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .sectionStyles {
+    height: 200px;  
+  }
+  .sectionStyles h4{
+    color: #fff; 
+  }
+  .carousels h1 {
+    font-size: 35px;
+  }
+  .carousels p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

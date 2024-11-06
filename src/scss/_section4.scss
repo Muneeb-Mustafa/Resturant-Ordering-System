@@ -1,0 +1,66 @@
+.sectionStyless { 
+    background-image: url('../../src/Images/Slide2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;  
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    text-align: center; 
+  }
+.sectionStyless h1{
+    font-family: playfair-display;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}  
+.sectionStyless h5{
+    font-size: 24px;
+    color: red;
+    margin-bottom: 20px;
+}  
+.btn3{ 
+    background-color: #000;
+    font-weight: 600;
+    color: #fff;
+    padding: 14px 41px;
+    border: none;
+    border-radius: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}  
+.btn3:hover {
+    background-color: red;
+    color: #fff; 
+}
+.section4 p{
+    padding-right: 100px;
+}
+
+@media (max-width: 576px){
+    .sectionStyless h5{
+        font-size: 18px;
+    }
+    .sectionStyless h1{
+        font-family: playfair-display;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }  
+    .mission{
+        margin-bottom: 25px;
+    } 
+    .section4 p{ 
+        text-align: center; 
+        padding-right: 0px;
+    }
+    .rows{
+        flex-direction: column-reverse;
+    }
+    .rows h3{
+        margin-top: 20px;
+    }
+  }
+  
